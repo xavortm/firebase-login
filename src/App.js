@@ -100,7 +100,7 @@ const Login = () => {
               textAlign: "center",
             }}
           >
-            <h1>Login using Google or Facebook: </h1>
+            <h1>Login using Google:</h1>
             <StyledFirebaseAuth
               uiConfig={uiConfig}
               firebaseAuth={firebase.auth()}
